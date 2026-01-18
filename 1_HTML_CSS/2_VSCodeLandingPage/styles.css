@@ -1,0 +1,211 @@
+/* Global Styles */
+body {
+    background-color: #181818;
+    color: #c3d0e5;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px 0 100px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: auto;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nav-item {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+/* Header Right Section */
+.header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.search-box {
+    font-size: 0.9em;
+    border: 2px solid grey;
+    background-color: #181818;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.search-input {
+    font-size: 0.9em;
+    padding: 8px 10px;
+    border: none;
+    background-color: #181818;
+    color: #c3d0e5;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #c3d0e5;
+    opacity: 0.7;
+}
+
+.download-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btn-download-header {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0078d4;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.binary-background {
+    display: flex;
+    justify-content: center;
+}
+
+.binary-text {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.15;
+    z-index: -1;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px 0 100px;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 75px;
+    color: #e6eefA;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.download-card {
+    background-color: #1f1f1f;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.btn-download-main {
+    padding: 15px 30px;
+    background-color: #e6eefA;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: 2px solid #e6eefA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.windows-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.download-info {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.platform-text {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.privacy-text {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* Product Preview Section */
+.product-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 100px 0 100px;
+}
+
+.product-image {
+    width: 90%;
+    border-radius: 10px;
+    margin: 15px;
+}
