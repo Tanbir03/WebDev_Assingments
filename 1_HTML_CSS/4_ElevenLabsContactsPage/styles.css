@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.dark-area {
+    background-color: #1C1C1C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.about {
+    width: 650px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-div {
+    width: 100%;
+    margin: 60px 0 60px 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.head {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.list {
+    margin: 10px 0 50px 0;
+}
+
+.list p {
+    display: flex;
+    font-size: 1.05rem;
+    font-weight: 400;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.list img {
+    width: 20px;
+    margin: 0;
+    padding: 5px 10px 5px 0;
+}
+
+.trust {
+    color: #949494;
+    font-size: 0.95rem;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0 40px 0;
+}
+
+.partners img{
+    width: 60px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.rating img {
+    width: 20px;
+    padding: 2px;
+}
+
+.rating p {
+    margin: 0 0 0 10px;
+}
+
+.light-area {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    color: #1C1C1C;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    font-size: 2.5rem;
+    font-weight: 380;
+    margin: 0;
+}
+
+.form p {
+    columns: #949494;
+    opacity: 0.6;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 5px 0 20px 0;
+}
+
+.form label {
+    margin: 15px 0 0 0;
+}
+
+.form input {
+    margin: 10px 0 10px 0;
+    padding: 12px 0 12px 18px;
+    border: 2px solid #949494;
+    border-radius: 12px;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
+.submit {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit button {
+    background-color: #6E6E6E;
+    border: none;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 12px 18px 12px 18px;
+    color: white;
+    font-size: 1.05rem;
+}
+
+.progress-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: fit-content;
+}
+
+.step {
+  height: 5px;
+  width: 75px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.step.active {
+  background-color: #1C1C1C;
+}
