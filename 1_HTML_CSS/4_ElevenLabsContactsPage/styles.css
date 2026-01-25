@@ -142,6 +142,7 @@ body {
     padding: 12px 18px 12px 18px;
     color: white;
     font-size: 1.05rem;
+    cursor: pointer;
 }
 
 .progress-container {
