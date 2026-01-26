@@ -8,7 +8,9 @@ body {
     background-color: #1C1C1C;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     flex: 1;
 }
 
@@ -161,4 +163,19 @@ body {
 
 .step.active {
   background-color: #1C1C1C;
+}
+
+use{
+  animation: move-forever 4s linear infinite;
+  &:nth-child(2){ animation-duration: 5s; animation-delay: -1.5s; }
+  &:nth-child(1){ animation-duration: 10s }
+}
+
+@keyframes move-forever{
+   0%{transform: translate(-2px, 0)}
+ 100%{transform: translate(0px, 0)} 
+}
+
+svg {
+    width: 100%;
 }
