@@ -1,0 +1,24 @@
+{
+  "name": "100xwebdev",
+  "version": "1.0.0",
+  "description": "This repoository consists of Web Dev assignment solutions from 100xDevs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanbir03/WebDev_Assingments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tanbir03/WebDev_Assingments/issues"
+  },
+  "homepage": "https://github.com/Tanbir03/WebDev_Assingments#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
