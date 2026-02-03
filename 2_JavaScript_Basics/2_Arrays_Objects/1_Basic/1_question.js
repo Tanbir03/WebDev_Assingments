@@ -4,19 +4,16 @@ const expenses = {
   bills: [40, 60],
 };
 
-function sum(n) {
-  let s = 0;
-  for (let i = 0; i < n.length; i++) {
-    s = s + n[i];
-  }
+const total = {};
 
-  return s;
+for (let key in expenses) {
+  let sum = 0;
+  
+  expenses[key].forEach(function(cost) {
+    sum = sum + cost;
+  });
+
+  total[key] = sum;
 }
 
-const totalExpenses = {
-    food: sum(expenses.food),
-    travel: sum(expenses.travel),
-    bills: sum(expenses.bills)
-}
-
-console.log(totalExpenses);
+console.log(total);
