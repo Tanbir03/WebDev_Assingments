@@ -1,1 +1,1 @@
-This repoository consists of Web Dev assignment solutions from 100xDevs.
+This repository consists of Web Dev assignment solutions from 100xDevs.
